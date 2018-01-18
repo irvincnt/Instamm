@@ -115,11 +115,6 @@ class App extends Component {
     return (
       <Container >
         <Navigation/>
-        <div className="App">
-          <header>
-            <h1>Welcome to React</h1>
-          </header>
-        </div>
         <Pictures pictures={pictures}/>
       </Container>
     );

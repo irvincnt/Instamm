@@ -3,8 +3,9 @@ import { Card, Icon, Image } from 'semantic-ui-react'
 
 class PictureItem extends Component {
   render(){
+
     return(
-      <Card>
+      <Card style={{ marginTop: 30 }}>
         <Image src={this.props.img} />
         <Card.Content>
           <Card.Header>{this.props.name}</Card.Header>
